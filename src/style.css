@@ -97,14 +97,20 @@ p {
   h1,
   h2 {
     font-size: 30px;
+    text-align: center;
   }
   h3 {
     font-size: 20px;
+    text-align: center;
   }
   p {
     font-size: 18px;
   }
-  a {
+  .navigation-links {
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    padding: 10px 5px;
   }
   .primary-link {
     text-align: center;
