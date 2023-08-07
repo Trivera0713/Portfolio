@@ -77,12 +77,18 @@ p {
   display: block;
 }
 
-.about-paragraphs {
-  margin: 30, 0px;
+.about-section {
+  margin: 50px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
-
-.about-paragraphs p {
-  margin: 10px;
+.about-section h1 {
+  font-size: 35px;
+}
+#me {
+  max-width: 75%;
+  margin: 40px;
 }
 
 .email-link {
