@@ -90,7 +90,6 @@ p {
   max-width: 75%;
   margin: 40px;
 }
-
 .email-link {
   display: flex;
   justify-content: center;
@@ -132,6 +131,14 @@ p {
 .fa-brands {
   font-size: 20px;
 }
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#carouselHero {
+  margin-left: 50px;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 40px;
@@ -157,5 +164,8 @@ p {
     margin: 0 50px;
     font-size: 20px;
     font-weight: bold;
+  }
+  #carouselHero {
+    margin: 10px;
   }
 }
