@@ -12,14 +12,18 @@ body {
   background-color: var(--primary-color);
 }
 h1 {
-  font-size: 90px;
-  margin: 5px 0;
+  font-size: 80px;
+  padding-top: 50px;
   font-family: var(--main-font);
+}
+h1.work {
+  font-size: 50px;
 }
 
 h2 {
   font-size: 20px;
   font-family: var(--info-font);
+  text-align: center;
 }
 
 h3,
@@ -34,6 +38,14 @@ p {
   text-align: center;
   font-family: var(--info-font);
 }
+form {
+  display: block;
+}
+footer {
+  margin-top: 20px;
+  padding: 10px;
+}
+
 .container {
   max-width: 1000px;
 }
@@ -43,6 +55,7 @@ p {
   margin: 56px 0;
   text-align: center;
 }
+
 .navbar-brand {
   color: white;
 }
@@ -86,6 +99,9 @@ p {
 .about-section h1 {
   font-size: 35px;
 }
+.about-section a.contact-link {
+  margin: 93px;
+}
 #me {
   max-width: 75%;
   margin: 40px;
@@ -102,9 +118,9 @@ p {
   text-decoration: underline;
 }
 .primary-link {
-  font-size: 20px;
-  margin: 20px;
-  text-align: center;
+  margin: 0px 120px;
+  font-weight: bold;
+  justify-content: center;
   border-radius: 10px;
   padding: 20px 15px;
   text-decoration: none;
@@ -136,9 +152,35 @@ p {
   object-fit: cover;
   object-position: center;
 }
+
 #carouselHero {
   margin-left: 50px;
 }
+.page {
+  max-width: 675px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.form_label {
+  padding-bottom: 10px;
+}
+#textInput {
+  min-height: 150px;
+  resize: vertical;
+  line-height: 150%;
+}
+.btn-primary {
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border-color: #73466b;
+}
+.btn-primary:hover {
+  background-color: var(--accent-color);
+  transition: all 120ms ease-in-out;
+  border-color: #7fb2b7;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 40px;
