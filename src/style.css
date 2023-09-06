@@ -180,8 +180,13 @@ footer {
   transition: all 120ms ease-in-out;
   border-color: #7fb2b7;
 }
+#inquiry {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   h1 {
     font-size: 40px;
     text-align: center;
@@ -191,13 +196,19 @@ footer {
     font-size: 20px;
     text-align: center;
   }
+  h4 {
+    font-size: 30px;
+  }
   p {
     font-size: 18px;
+  }
+
+  h1.work {
+    font-size: 35px;
   }
   .navigation-links {
     text-align: center;
     display: block;
-    margin-top: 15px;
     padding: 10px 5px;
   }
   .primary-link {
@@ -209,5 +220,23 @@ footer {
   }
   #carouselHero {
     margin: 10px;
+  }
+  #project-title {
+    font-size: 40px;
+  }
+  #inquiry {
+    display: block;
+  }
+  .page {
+    max-width: 300px;
+  }
+  .btn-primary {
+    display: block;
+  }
+  .about-section {
+    margin-top: 20px;
+  }
+  .about-section a.contact-link {
+    margin: 0 auto;
   }
 }
