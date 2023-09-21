@@ -12,28 +12,27 @@ body {
   background-color: var(--primary-color);
 }
 h1 {
-  font-size: 80px;
+  font-size: 120px;
   padding-top: 50px;
   font-family: var(--main-font);
 }
 h1.work {
-  font-size: 50px;
+  font-size: 75px;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 40px;
   font-family: var(--info-font);
   text-align: center;
 }
 
 h3,
 h4 {
-  font-size: 24px;
-  opacity: 0.7;
+  font-size: 30px;
 }
 
 p {
-  font-size: 18px;
+  font-size: 30px;
   line-height: 1.5;
   text-align: center;
   font-family: var(--info-font);
@@ -41,14 +40,29 @@ p {
 form {
   display: block;
 }
+label {
+  font-size: 30px;
+}
 footer {
-  margin-top: 20px;
-  padding: 10px;
+  font-size: 25px;
+}
+
+li {
+  font-size: 30px;
+  color: white;
+}
+hr {
+  color: var(--accent-color);
+  border: 4px solid;
+  overflow: visible;
+  text-align: center;
+  opacity: 50;
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1200px;
 }
+
 .intro {
   background-color: rgba(255, 255, 255, 0.3);
   padding: 20px;
@@ -58,6 +72,9 @@ footer {
 
 .navbar-brand {
   color: white;
+}
+a.navbar-brand {
+  font-size: 40px;
 }
 .navigation-links {
   display: block;
@@ -69,10 +86,18 @@ footer {
   padding: 15px 30px;
   text-decoration: none;
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 30px;
+  line-height: 2;
+}
+.nav-item {
+  padding: 0 10px;
 }
 .nav-item a {
   color: white;
+  font-size: 30px;
+}
+.container {
+  max-width: 1400px;
 }
 .contact-link {
   background: var(--secondary-color);
@@ -92,19 +117,21 @@ footer {
 
 .about-section {
   margin: 50px auto;
-  padding: 20px;
+  padding-top: 50px;
   display: flex;
   justify-content: space-between;
 }
 .about-section h1 {
-  font-size: 35px;
+  font-size: 80px;
 }
 .about-section a.contact-link {
-  margin: 93px;
+  display: block;
+  margin: 40px 93px;
+  text-align: center;
 }
 #me {
-  max-width: 75%;
-  margin: 40px;
+  max-width: 100%;
+  margin-top: 115px;
 }
 .email-link {
   display: flex;
@@ -118,6 +145,7 @@ footer {
   text-decoration: underline;
 }
 .primary-link {
+  font-size: 30px;
   margin: 0px 120px;
   font-weight: bold;
   justify-content: center;
@@ -135,8 +163,28 @@ footer {
   background: var(--accent-color);
   color: white;
 }
+.btn-light {
+  display: block;
+  font-size: 30px;
+  margin: 0px 120px;
+  font-weight: bold;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: white;
+  border: solid 1px var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+  transition: all 150ms ease-in-out;
+}
+.btn-light:hover {
+  background: var(--accent-color);
+  color: white;
+}
 #project-title {
-  font-size: 50px;
+  font-size: 60px;
   font-family: var(--main-font);
 }
 .social-links a {
@@ -145,7 +193,7 @@ footer {
   text-decoration: none;
 }
 .fa-brands {
-  font-size: 20px;
+  font-size: 40px;
 }
 .c-img {
   height: 100%;
@@ -157,12 +205,15 @@ footer {
   margin-left: 50px;
 }
 .page {
-  max-width: 675px;
+  max-width: 900px;
   margin-right: auto;
   margin-left: auto;
 }
 .form_label {
   padding-bottom: 10px;
+}
+.form-control {
+  line-height: 2;
 }
 #textInput {
   min-height: 150px;
@@ -170,6 +221,7 @@ footer {
   line-height: 150%;
 }
 .btn-primary {
+  font-size: 30px;
   background: var(--secondary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -183,13 +235,43 @@ footer {
 .message {
   font-size: 30px;
 }
+.skills {
+  opacity: 100;
+  color: white;
+  font-size: 40px;
+  margin: 0 50px;
+  line-height: 2;
+}
 #inquiry {
   display: flex;
   justify-content: space-between;
   text-align: center;
 }
+#profile {
+  padding-top: 50px auto;
+  padding-top: 50px;
+  background: var(--secondary-color);
+}
+#resume {
+  padding: 20px;
+  margin: 100px 60px;
+}
+.list {
+  display: block;
+  margin: 0 50px;
+}
+.certificates {
+  color: white;
+  text-decoration: none;
+}
+.certificates:hover {
+  color: #7fb2b7;
+}
+.work li {
+  color: black;
+}
 
-@media (max-width: 600px) {
+@media (max-width: 860px) {
   h1 {
     font-size: 40px;
     text-align: center;
