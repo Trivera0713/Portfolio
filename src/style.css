@@ -180,6 +180,9 @@ footer {
   transition: all 120ms ease-in-out;
   border-color: #7fb2b7;
 }
+.message {
+  font-size: 30px;
+}
 #inquiry {
   display: flex;
   justify-content: space-between;
@@ -238,5 +241,8 @@ footer {
   }
   .about-section a.contact-link {
     margin: 0 auto;
+  }
+  .message {
+    font-size: 20px;
   }
 }
